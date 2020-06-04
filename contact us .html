@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>CAR WEB SITE </title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark  sticky-top">
+    <a class="navbar-brand" href="#"><img src="images/download.png" alt="LOGO" height="50px"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+      aria-controls="navbarText" aria-expanded="false" aria-label="Toggle">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarText">
+      <ul class="navbar-nav mr-auto">
+      </ul>
+      <span class="navbar-text">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about us.html">ABOUT US</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="pictures.html">PRICING</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact us .html">CONTACT US</a>
+          </li>
+        </ul>
+      </span>
+    </div>
+  </nav>
+  <Center>
+    <h1> <b class="kl">CONTACT <strong class="op"> US</strong></h1>
+  </Center>
+   <div class="container">
+     <div class="row">
+       <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+     <div>
+      <form action="about.html" method="post">
+        <table class="table" cellspacing="10" cellpadding="5px">
+            <tbody class="information">
+                <tr>
+                    <td>YOUR NAME</td>
+                    <td>
+                        <input type="text" name="FIRST NAME" placeholder="Enter your name" size="20" maxlength="30"
+                            required="required" />
+                        <font size="1">(max 30 characters a-z and A-Z)</font>
+                    </td>
+                </tr>
+                <tr>
+                    <td> YOUR FATHER'S NAME</td>
+                    <td>
+                        <input type="text" name="YOUR FATHER'S NAME" placeholder="Enter father's name" size="20" maxlength="30"
+                            required="required" />
+                        <font size="1">(max 30 characters a-z and A-Z)</font>
+                    </td>
+                </tr>
+                <tr>
+                  <td>EMAIL ADDRESS</td>
+                  <td>
+                      <input type="text" name="EMAIL id" placeholder="Enter email address
+                          required="required" />
+                  </td>
+              </tr>
+              <tr>
+                <td>MOBILE NUMBER</td>
+                <td>
+                    <input type="number" name="Mobile number" size="20" maxlength="30"
+                        placeholder="Enter mobile number" />(10 digit number)
+                </td>
+            </tr>
+            <tr>
+                <td>GENDER</td>
+                <td>
+                    <input type="radio" class="data" name="gender" value="MALE" /> MALE
+                    <input type="radio" class="data" name="gender" value="FEMALE" /> FEMALE
+                </td>
+            </tr>
+            <tr>
+                <td>ADDRESS</td>
+                <td>
+                    <textarea name="address" id="address" cols="30" rows="4"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>CITY</td>
+                <td>
+                    <input type="text" name="CITY" placeholder="Enter city name" size="20" maxl
+                        required="required" />
+                    <font size="1">(max 30 characters a-z and A-Z)</font>
+                </td>
+            </tr>
+            <tr>
+              <td>COUNTRY</td>
+              <td>
+                  <input type="text" name="country" placeholder="Enter country" s
+                      required="required" />
+              </td>
+          </tr>
+            </tbody>
+        </table>
+     </div>
+   </div>
+   
+  <!-- footer -->
+  <div class="footer">
+    <div>
+      <h4>copyright<i class="fa fa-copyright" aria-hidden="true"></i>car website 2020</h4>
+      <p>DEVELOP BY NOMAN ARIF WM9154</p>
+    </div>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">
+      <img src="images/arrow-11-512.png" alt="arrow-11-512" title="back to top" width="50px"></button>
+  </div>
+  <!-- end footer -->
+
+  <!-- button jvascript -->
+  <script>
+    //Get the button
+    var mybutton = document.getElementById("myBtn");
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function () { scrollFunction() };
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+  </script>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
